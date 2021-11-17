@@ -26,6 +26,11 @@ body:
         Please be minimal and precise as possible. If your repo/run is public, please include a URL so it is easier for us to investigate.
     validations:
       required: true
+  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: If applicable, add screenshots to help explain your problem.
 
   - type: textarea
     id: additional
