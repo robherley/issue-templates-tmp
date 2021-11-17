@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: 🙋 Ask a question
     url: https://github.community/
-    about: Please ask and answer questions here.
-  - name: 🔒 GitHub Security Bug Bounty
+    about: Please ask and answer questions on GitHub Support Community.
+  - name: 🔒 Report security vulnerability
     url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+    about: Please report security vulnerabilities to GitHub Security Bug Bounty.
