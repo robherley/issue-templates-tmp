@@ -1,5 +1,5 @@
 name: "📚 Documentation issues"
-description: Suggest a fix/addition to the documentation.
+description: Make a suggestion to improve the documentation!
 labels: documentation
 title: '[docs]'
 body:
