@@ -7,6 +7,8 @@ body:
     id: feature
     attributes:
       label: What would you like to be added?
+      description: |
+        Please check existing issues to avoid making duplicates. Any duplicate issue will be closed immediately.
     validations:
       required: true
 
