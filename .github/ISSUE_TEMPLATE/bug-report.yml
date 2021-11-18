@@ -45,6 +45,7 @@ body:
     id: environment
     attributes:
       label: Environments
+      multiple: true
       options:
         - self-hosted
         - linux
