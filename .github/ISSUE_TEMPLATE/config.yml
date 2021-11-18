@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 📚 Documentation issues
-    url: https://github.com/github/docs/issues
-    about: Please file documentation issues in the github/docs repo.
   - name: 🙋 Ask a question
     url: https://github.community/c/code-to-cloud/52
     about: Please ask and answer questions on GitHub Support Community.
