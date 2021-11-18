@@ -36,15 +36,17 @@ body:
   - type: input
     id: version
     attributes:
-      label: Action version
+      label: What version of the action are you using?
       placeholder: vX.Y.Z
+      description: |
+        Please check the documentation first since different major versions can have different behaviors.
     validations:
       required: true
 
   - type: dropdown
     id: environment
     attributes:
-      label: Environments
+      label: What are your runner environments?
       multiple: true
       options:
         - self-hosted
@@ -53,3 +55,9 @@ body:
         - macos
     validations:
       required: true
+
+  - type: input
+    id: ghes
+    attributes:
+      label: Are you on GitHub Enterprise Server? If so, what version?
+      placeholder: vX.Y
