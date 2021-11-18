@@ -37,7 +37,6 @@ body:
     id: environment
     attributes:
       label: Which environments was this seen on?
-      description: You may select more than one.
       options:
         - label: self-hosted
         - label: linux
