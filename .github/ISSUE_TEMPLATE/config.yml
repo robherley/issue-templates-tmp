@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/github/docs/issues
     about: Please file documentation issues in the github/docs repo.
   - name: 🙋 Ask a question
-    url: https://github.community/
+    url: https://github.community/c/code-to-cloud/52
     about: Please ask and answer questions on GitHub Support Community.
   - name: 🔒 Report security vulnerability
     url: https://bounty.github.com/
