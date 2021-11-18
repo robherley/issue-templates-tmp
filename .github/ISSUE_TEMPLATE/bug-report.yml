@@ -1,13 +1,14 @@
 name: "🐛 Bug Report"
 description: Let us know about a bug!
 labels: bug
+title: '[bug]'
 body:
   - type: textarea
     id: problem
     attributes:
       label: What happened?
       description: |
-        Please provide a clear and concise description of what the bug is.
+        Please provide a clear and concise description of what the bug is. If applicable, add screenshots to help explain your problem.
     validations:
       required: true
 
@@ -28,11 +29,17 @@ body:
       required: true
   
   - type: textarea
-    id: screenshots
-    attributes:
-      label: If applicable, add screenshots to help explain your problem.
-
-  - type: textarea
     id: additional
     attributes:
       label: Anything else we need to know?
+
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Which environments was this seen on?
+      description: You may select more than one.
+      options:
+        - label: self-hosted
+        - label: linux
+        - label: window
+        - label: macos
