@@ -33,12 +33,22 @@ body:
     attributes:
       label: Anything else we need to know?
 
-  - type: checkboxes
+  - type: input
+    id: version
+    attributes:
+      label: Action version
+      placeholder: vX.Y.Z
+    validations:
+      required: true
+
+  - type: dropdown
     id: environment
     attributes:
-      label: Which environments was this seen on?
+      label: Environments
       options:
-        - label: self-hosted
-        - label: linux
-        - label: window
-        - label: macos
+        - self-hosted
+        - linux
+        - window
+        - macos
+    validations:
+      required: true
